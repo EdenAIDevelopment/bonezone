@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 const API_URL = "https://api.pump.fun/graphql";
 
 const fetchDeadCoins = async () => {
-  const query = \`
+  const query = `
     query DeadCoins {
       allMints {
         address
